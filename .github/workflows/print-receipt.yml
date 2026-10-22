@@ -1,0 +1,33 @@
+name: Print profile receipt
+
+on:
+  schedule:
+    - cron: "17 21 * * *" # 06:17 JST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  print:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
+
+      - uses: oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6 # v2.2.0
+
+      - name: Render receipt
+        run: bun scripts/render-receipt.ts
+        env:
+          GH_USER: ${{ github.repository_owner }}
+          # PROFILE_TOKEN (fine-grained PAT, Metadata: read) を登録するとプライベートリポジトリも集計に含まれる
+          GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/
+          git commit -m "レシート: 本日分を印字"
+          git pull --rebase
+          git push

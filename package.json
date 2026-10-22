@@ -1,0 +1,14 @@
+{
+  "name": "profile-readme",
+  "private": true,
+  "type": "module",
+  "packageManager": "bun@1.4.2",
+  "scripts": {
+    "receipt": "bun scripts/render-receipt.ts",
+    "typecheck": "tsc"
+  },
+  "devDependencies": {
+    "@types/bun": "1.4.3",
+    "typescript": "7.0.2"
+  }
+}
