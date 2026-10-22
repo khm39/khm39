@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "lib": ["esnext"],
+    "target": "esnext",
+    "module": "preserve",
+    "types": ["bun"],
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "erasableSyntaxOnly": true,
+    "verbatimModuleSyntax": true,
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["scripts/**/*.ts"]
+}
