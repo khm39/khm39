@@ -18,8 +18,8 @@
     <path d="M12 5 H348 V629 L341.0 636 L334.0 629 L327.0 636 L320.0 629 L313.0 636 L306.0 629 L299.0 636 L292.0 629 L285.0 636 L278.0 629 L271.0 636 L264.0 629 L257.0 636 L250.0 629 L243.0 636 L236.0 629 L229.0 636 L222.0 629 L215.0 636 L208.0 629 L201.0 636 L194.0 629 L187.0 636 L180.0 629 L173.0 636 L166.0 629 L159.0 636 L152.0 629 L145.0 636 L138.0 629 L131.0 636 L124.0 629 L117.0 636 L110.0 629 L103.0 636 L96.0 629 L89.0 636 L82.0 629 L75.0 636 L68.0 629 L61.0 636 L54.0 629 L47.0 636 L40.0 629 L33.0 636 L26.0 629 L19.0 636 L12.0 629 Z" fill="#fffdf7" filter="url(#shadow)"/>
     <text x="180" y="42" text-anchor="middle" font-weight="700" font-size="17">@khm39</text>
     <text x="180" y="68" text-anchor="middle" class="dim" letter-spacing="3">PROFILE RECEIPT</text>
-    <text x="34" y="98" class="dim">2026-10-29 09:56 JST</text>
-    <text x="326" y="98" text-anchor="end" class="dim">NO.0007</text>
+    <text x="34" y="98" class="dim">2026-10-30 09:58 JST</text>
+    <text x="326" y="98" text-anchor="end" class="dim">NO.0008</text>
     <line x1="34" x2="326" y1="113" y2="113" class="rule"/>
     <text x="34" y="136">PUBLIC REPOS</text>
     <text x="326" y="136" text-anchor="end">x 7</text>
@@ -27,7 +27,7 @@
     <text x="326" y="158" text-anchor="end">x 1</text>
     <text x="34" y="180">LAST PUSH</text>
     <text x="326" y="180" text-anchor="end">Today</text>
-    <text x="326" y="202" text-anchor="end" class="dim">2026-10-29</text>
+    <text x="326" y="202" text-anchor="end" class="dim">2026-10-30</text>
     <line x1="34" x2="326" y1="217" y2="217" class="rule"/>
     <text x="180" y="240" text-anchor="middle" class="dim" letter-spacing="2">MOST USED LANGUAGES</text>
     <g class="ink"><rect x="34.0" y="257" width="220.0" height="10" rx="1" fill-opacity="1.00"/><rect x="256.0" y="257" width="33.3" height="10" rx="1" fill-opacity="0.84"/><rect x="291.3" y="257" width="20.4" height="10" rx="1" fill-opacity="0.68"/><rect x="313.7" y="257" width="6.1" height="10" rx="1" fill-opacity="0.52"/><rect x="321.8" y="257" width="1.4" height="10" rx="1" fill-opacity="0.36"/><rect x="325.2" y="257" width="1.0" height="10" rx="1" fill-opacity="0.20"/></g>
